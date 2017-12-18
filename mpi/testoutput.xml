@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<testsuite>
+  <properties>
+    <property name="BuildName" value="Linux-c++"/>
+    <property name="BuildStamp" value="20171218-0724-Experimental"/>
+    <property name="Name" value="opm-deb"/>
+    <property name="Generator" value="ctest-3.7.2"/>
+    <property name="CompilerName" value="/usr/lib/ccache/c++"/>
+    <property name="OSName" value="Linux"/>
+    <property name="Hostname" value="opm-deb"/>
+    <property name="OSRelease" value="4.9.0-3-amd64"/>
+    <property name="OSVersion" value="#1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26)"/>
+    <property name="OSPlatform" value="x86_64"/>
+    <property name="Is64Bits" value="1"/>
+    <property name="VendorString" value="GenuineIntel"/>
+    <property name="VendorID" value="Intel Corporation"/>
+    <property name="FamilyID" value="6"/>
+    <property name="ModelID" value="45"/>
+    <property name="ProcessorCacheSize" value="15360"/>
+    <property name="NumberOfLogicalCPU" value="12"/>
+    <property name="NumberOfPhysicalCPU" value="12"/>
+    <property name="TotalVirtualMemory" value="0"/>
+    <property name="TotalPhysicalMemory" value="32178"/>
+    <property name="LogicalProcessorsPerPhysical" value="1"/>
+    <property name="ProcessorClockFrequency" value="2000"/>
+  </properties>
+  <testcase name="autodiffhelpers" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.145564&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="autodiffmatrix" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.166452&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="block" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.169665&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="boprops_ad" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.187781&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="rateconverter" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.151145&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="span" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.0892291&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="syntax" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.0957&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="scalar_mult" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.108361&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="transmissibilitymultipliers" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.286697&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="welldensitysegmented" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.112598&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="vfpproperties" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.383149&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="singlecellsolves" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;11.312&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="multiphaseupwind" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.0916131&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="wellmodel" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.117437&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="wellswitchlogger" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.313371&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="timer" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.135917&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="invert" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.145607&#10;&#9;&#9;&#9;&#9;"/>
+  <testcase name="event" classname="mpi" time="&#10;&#9;&#9;&#9;&#9;&#9;0.118436&#10;&#9;&#9;&#9;&#9;"/>
+  <system-out>
+				BuildName: Linux-c++
+				BuildStamp: 20171218-0724-Experimental
+				Name: opm-deb
+				Generator: ctest-3.7.2
+				CompilerName: /usr/lib/ccache/c++
+				OSName: Linux
+				Hostname: opm-deb
+				OSRelease: 4.9.0-3-amd64
+				OSVersion: #1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26)
+				OSPlatform: x86_64
+				Is64Bits: 1
+				VendorString: GenuineIntel
+				VendorID: Intel Corporation
+				FamilyID: 6
+				ModelID: 45
+				ProcessorCacheSize: 15360
+				NumberOfLogicalCPU: 12
+				NumberOfPhysicalCPU: 12
+				TotalVirtualMemory: 0
+				TotalPhysicalMemory: 32178
+				LogicalProcessorsPerPhysical: 1
+				ProcessorClockFrequency: 2000</system-out>
+</testsuite>
+

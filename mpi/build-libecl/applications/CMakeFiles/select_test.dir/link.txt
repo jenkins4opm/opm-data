@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++    -Wall  -std=c++11 -O3 -DNDEBUG   CMakeFiles/select_test.dir/ecl/select_test.c.o  -o ../bin/select_test.x -rdynamic ../lib/libecl.a -lm -ldl -pthread -lblas -llapack -lblas -llapack -lz 

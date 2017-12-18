@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20171218-0724-Experimental"
+	Name="opm-deb"
+	Generator="ctest-3.7.2"
+	CompilerName="/usr/lib/ccache/c++"
+	CompilerVersion="6.3.0"
+	OSName="Linux"
+	Hostname="opm-deb"
+	OSRelease="4.9.0-3-amd64"
+	OSVersion="#1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26)"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="45"
+	ProcessorCacheSize="15360"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="32178"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2000"
+	>
+	<Testing>
+		<StartDateTime>Dec 18 07:24 UTC</StartDateTime>
+		<StartTestTime>1513581855</StartTestTime>
+		<TestList>
+			<Test>./tests/autodiffhelpers</Test>
+			<Test>./tests/autodiffmatrix</Test>
+			<Test>./tests/block</Test>
+			<Test>./tests/boprops_ad</Test>
+			<Test>./tests/rateconverter</Test>
+			<Test>./tests/span</Test>
+			<Test>./tests/syntax</Test>
+			<Test>./tests/scalar_mult</Test>
+			<Test>./tests/transmissibilitymultipliers</Test>
+			<Test>./tests/welldensitysegmented</Test>
+			<Test>./tests/vfpproperties</Test>
+			<Test>./tests/singlecellsolves</Test>
+			<Test>./tests/multiphaseupwind</Test>
+			<Test>./tests/wellmodel</Test>
+			<Test>./tests/wellswitchlogger</Test>
+			<Test>./tests/timer</Test>
+			<Test>./tests/invert</Test>
+			<Test>./tests/event</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>autodiffhelpers</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/autodiffhelpers</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_autodiffhelpers"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.145564</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_autodiffhelpers"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 5 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>autodiffmatrix</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/autodiffmatrix</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_autodiffmatrix"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.166452</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_autodiffmatrix"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 9 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>block</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/block</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_block"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.169665</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_block"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 6 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>boprops_ad</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/boprops_ad</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_boprops_ad"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.187781</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_boprops_ad"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 6 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>rateconverter</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/rateconverter</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_rateconverter"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.151145</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_rateconverter"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 2 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>span</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/span</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_span"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0892291</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_span"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 2 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>syntax</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/syntax</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_syntax"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0957</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_syntax"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 8 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>scalar_mult</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/scalar_mult</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_scalar_mult"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.108361</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_scalar_mult"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 1 test case...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>transmissibilitymultipliers</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/transmissibilitymultipliers</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_transmissibilitymultipliers"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.286697</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_transmissibilitymultipliers"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 2 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>welldensitysegmented</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/welldensitysegmented</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_welldensitysegmented"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.112598</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_welldensitysegmented"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 1 test case...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>vfpproperties</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/vfpproperties</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_vfpproperties"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.383149</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_vfpproperties"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 16 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>singlecellsolves</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/singlecellsolves</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_singlecellsolves"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>11.312</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_singlecellsolves"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Topological sort took: 3.125e-06 seconds.
+Topological sort took: 1.74e-06 seconds.
+Topological sort took: 1.111e-06 seconds.
+Topological sort took: 9.26e-07 seconds.
+Topological sort took: 9.14e-07 seconds.
+Topological sort took: 1.043e-06 seconds.
+Topological sort took: 8.43e-07 seconds.
+Topological sort took: 8.55e-07 seconds.
+Topological sort took: 8.78e-07 seconds.
+Topological sort took: 8.23e-07 seconds.
+Topological sort took: 8.52e-07 seconds.
+Topological sort took: 1.315e-06 seconds.
+Topological sort took: 1.046e-06 seconds.
+Topological sort took: 9.86e-07 seconds.
+Topological sort took: 1.126e-06 seconds.
+Topological sort took: 1.068e-06 seconds.
+Topological sort took: 1.021e-06 seconds.
+Topological sort took: 1.114e-06 seconds.
+Topological sort took: 1.022e-06 seconds.
+Topological sort took: 1.074e-06 seconds.
+Topological sort took: 1.12e-06 seconds.
+Topological sort took: 1.004e-06 seconds.
+Topological sort took: 1.081e-06 seconds.
+Topological sort took: 1.046e-06 seconds.
+Topological sort took: 9.7...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>multiphaseupwind</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/multiphaseupwind</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_multiphaseupwind"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0916131</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_multiphaseupwind"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 3 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>wellmodel</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/wellmodel</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_wellmodel"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.117437</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_wellmodel"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 2 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>wellswitchlogger</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/wellswitchlogger</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_wellswitchlogger"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.313371</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_wellswitchlogger"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 1 test case...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>timer</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/timer</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_timer"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.135917</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_timer"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 1 test case...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>invert</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/invert</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_invert"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.145607</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_invert"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 1 test case...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>event</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/event</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_event"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.118436</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-np" "1" "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/bin/test_event"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running 4 test cases...
+
+*** No errors detected
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Dec 18 07:24 UTC</EndDateTime>
+		<EndTestTime>1513581869</EndTestTime>
+		<ElapsedMinutes>0.2</ElapsedMinutes>
+	</Testing>
+</Site>

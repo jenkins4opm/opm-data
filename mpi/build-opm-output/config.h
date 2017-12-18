@@ -1,0 +1,5 @@
+#define HAS_ATTRIBUTE_UNUSED 1
+#define HAVE_OPM_PARSER 1
+/* #undef HAVE_REGEX */
+#define HAVE_ERT 1
+#define HAVE_DYNAMIC_BOOST_TEST 1

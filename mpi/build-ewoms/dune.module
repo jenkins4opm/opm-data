@@ -1,0 +1,13 @@
+################################ 
+# Dune module information file. This file gets parsed by dunecontrol
+# and by the CMake build scripts.
+################################
+Module: ewoms
+Version: 2018.04-pre
+Codename: Winston
+Description: The eWoms simulation framework for flow  and transport in porous media
+Url: http://opm-project.org
+MaintainerName: The Open Porous Media Project
+Maintainer: opm@opm-project.org
+Depends: dune-grid (>= 2.4) dune-istl  (>= 2.4) opm-common opm-material
+Suggests: dune-localfunctions (>= 2.4) dune-fem  (>= 2.4) dune-alugrid (>= 2.4) opm-parser opm-grid opm-core

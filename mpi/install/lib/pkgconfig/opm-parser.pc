@@ -1,0 +1,15 @@
+prefix=/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/install
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+CXX=/usr/lib/ccache/c++
+CC=/usr/lib/ccache/cc
+DEPENDENCIES=
+
+Name: opm-parser
+Version: 
+Description: The opm-parser module
+URL: http://www.opm-project.org/
+Requires: ${DEPENDENCIES}
+Libs: -L${libdir} -lopmparser
+Cflags: -I${includedir}

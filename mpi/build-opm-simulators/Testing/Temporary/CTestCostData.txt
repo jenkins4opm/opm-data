@@ -1,0 +1,19 @@
+autodiffhelpers 1 0.145564
+autodiffmatrix 1 0.166452
+block 1 0.169665
+boprops_ad 1 0.187781
+rateconverter 1 0.151145
+span 1 0.0892291
+syntax 1 0.0957
+scalar_mult 1 0.108361
+transmissibilitymultipliers 1 0.286697
+welldensitysegmented 1 0.112598
+vfpproperties 1 0.383149
+singlecellsolves 1 11.312
+multiphaseupwind 1 0.0916131
+wellmodel 1 0.117437
+wellswitchlogger 1 0.313371
+timer 1 0.135917
+invert 1 0.145607
+event 1 0.118436
+---

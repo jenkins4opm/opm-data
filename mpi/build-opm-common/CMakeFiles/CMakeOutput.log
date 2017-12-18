@@ -1,0 +1,1225 @@
+The system is: Linux - 4.9.0-3-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/lib/ccache/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/lib/ccache/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73329/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73329.dir/build.make CMakeFiles/cmTC_73329.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73329.dir/testCCompiler.c.o
+/usr/lib/ccache/cc     -o CMakeFiles/cmTC_73329.dir/testCCompiler.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_73329
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73329.dir/link.txt --verbose=1
+/usr/lib/ccache/cc       CMakeFiles/cmTC_73329.dir/testCCompiler.c.o  -o cmTC_73329 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66f31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66f31.dir/build.make CMakeFiles/cmTC_66f31.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o
+/usr/lib/ccache/cc     -o CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_66f31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66f31.dir/link.txt --verbose=1
+/usr/lib/ccache/cc      -v CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o  -o cmTC_66f31 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66f31' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8SaX69.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_66f31 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66f31' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_66f31/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_66f31.dir/build.make CMakeFiles/cmTC_66f31.dir/build]
+  ignore line: [make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib/ccache/cc     -o CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_66f31]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66f31.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/cc      -v CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o  -o cmTC_66f31 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66f31' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8SaX69.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_66f31 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8SaX69.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_66f31] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [CMakeFiles/cmTC_66f31.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14115/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14115.dir/build.make CMakeFiles/cmTC_14115.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14115.dir/feature_tests.c.o
+/usr/lib/ccache/cc    -std=c11 -o CMakeFiles/cmTC_14115.dir/feature_tests.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/feature_tests.c
+Linking C executable cmTC_14115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14115.dir/link.txt --verbose=1
+/usr/lib/ccache/cc       CMakeFiles/cmTC_14115.dir/feature_tests.c.o  -o cmTC_14115 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_feda5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_feda5.dir/build.make CMakeFiles/cmTC_feda5.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feda5.dir/feature_tests.c.o
+/usr/lib/ccache/cc    -std=c99 -o CMakeFiles/cmTC_feda5.dir/feature_tests.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/feature_tests.c
+Linking C executable cmTC_feda5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feda5.dir/link.txt --verbose=1
+/usr/lib/ccache/cc       CMakeFiles/cmTC_feda5.dir/feature_tests.c.o  -o cmTC_feda5 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9a59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9a59.dir/build.make CMakeFiles/cmTC_d9a59.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9a59.dir/feature_tests.c.o
+/usr/lib/ccache/cc    -std=c90 -o CMakeFiles/cmTC_d9a59.dir/feature_tests.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d9a59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9a59.dir/link.txt --verbose=1
+/usr/lib/ccache/cc       CMakeFiles/cmTC_d9a59.dir/feature_tests.c.o  -o cmTC_d9a59 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36929/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36929.dir/build.make CMakeFiles/cmTC_36929.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36929.dir/testCXXCompiler.cxx.o
+/usr/lib/ccache/c++      -o CMakeFiles/cmTC_36929.dir/testCXXCompiler.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_36929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36929.dir/link.txt --verbose=1
+/usr/lib/ccache/c++        CMakeFiles/cmTC_36929.dir/testCXXCompiler.cxx.o  -o cmTC_36929 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17668/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17668.dir/build.make CMakeFiles/cmTC_17668.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib/ccache/c++      -o CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_17668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17668.dir/link.txt --verbose=1
+/usr/lib/ccache/c++       -v CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_17668 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_17668' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8V9oy3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_17668 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_17668' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_17668/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_17668.dir/build.make CMakeFiles/cmTC_17668.dir/build]
+  ignore line: [make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib/ccache/c++      -o CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_17668]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17668.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/c++       -v CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_17668 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_17668' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8V9oy3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_17668 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8V9oy3.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_17668] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [CMakeFiles/cmTC_17668.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9fd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9fd8.dir/build.make CMakeFiles/cmTC_d9fd8.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9fd8.dir/feature_tests.cxx.o
+/usr/lib/ccache/c++     -std=c++14 -o CMakeFiles/cmTC_d9fd8.dir/feature_tests.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d9fd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9fd8.dir/link.txt --verbose=1
+/usr/lib/ccache/c++        CMakeFiles/cmTC_d9fd8.dir/feature_tests.cxx.o  -o cmTC_d9fd8 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_927cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_927cd.dir/build.make CMakeFiles/cmTC_927cd.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_927cd.dir/feature_tests.cxx.o
+/usr/lib/ccache/c++     -std=c++11 -o CMakeFiles/cmTC_927cd.dir/feature_tests.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_927cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_927cd.dir/link.txt --verbose=1
+/usr/lib/ccache/c++        CMakeFiles/cmTC_927cd.dir/feature_tests.cxx.o  -o cmTC_927cd -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46eb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46eb8.dir/build.make CMakeFiles/cmTC_46eb8.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46eb8.dir/feature_tests.cxx.o
+/usr/lib/ccache/c++     -std=c++98 -o CMakeFiles/cmTC_46eb8.dir/feature_tests.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_46eb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46eb8.dir/link.txt --verbose=1
+/usr/lib/ccache/c++        CMakeFiles/cmTC_46eb8.dir/feature_tests.cxx.o  -o cmTC_46eb8 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the CXX compiler accepts the flag -Wl,--enable-new-dtags passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45acf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45acf.dir/build.make CMakeFiles/cmTC_45acf.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_45acf.dir/DummyCXXFile.cxx.o
+/usr/lib/ccache/c++     -Wl,--enable-new-dtags   -o CMakeFiles/cmTC_45acf.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.7/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTC_45acf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45acf.dir/link.txt --verbose=1
+/usr/lib/ccache/c++    -Wl,--enable-new-dtags    CMakeFiles/cmTC_45acf.dir/DummyCXXFile.cxx.o  -o cmTC_45acf -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler accepts the flag -mtune=native passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1433b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1433b.dir/build.make CMakeFiles/cmTC_1433b.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1433b.dir/DummyCXXFile.cxx.o
+/usr/lib/ccache/c++     -pipe -mtune=native   -o CMakeFiles/cmTC_1433b.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.7/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTC_1433b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1433b.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -mtune=native    CMakeFiles/cmTC_1433b.dir/DummyCXXFile.cxx.o  -o cmTC_1433b -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4a8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4a8a.dir/build.make CMakeFiles/cmTC_c4a8a.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4a8a.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas    -o CMakeFiles/cmTC_c4a8a.dir/CheckIncludeFile.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c4a8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4a8a.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas     CMakeFiles/cmTC_c4a8a.dir/CheckIncludeFile.c.o  -o cmTC_c4a8a -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a5e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a5e5.dir/build.make CMakeFiles/cmTC_9a5e5.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a5e5.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9a5e5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a5e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a5e5.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9a5e5.dir/CheckFunctionExists.c.o  -o cmTC_9a5e5 -rdynamic -lpthread 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler accepts the flag -pthread passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1065b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1065b.dir/build.make CMakeFiles/cmTC_1065b.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1065b.dir/DummyCXXFile.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread   -o CMakeFiles/cmTC_1065b.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.7/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTC_1065b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1065b.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread    CMakeFiles/cmTC_1065b.dir/DummyCXXFile.cxx.o  -o cmTC_1065b -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_C99 succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1ca0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1ca0.dir/build.make CMakeFiles/cmTC_b1ca0.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1ca0.dir/src.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas -pthread -DHAVE_C99   -std=c99 -o CMakeFiles/cmTC_b1ca0.dir/src.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b1ca0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ca0.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas -pthread -DHAVE_C99    CMakeFiles/cmTC_b1ca0.dir/src.c.o  -o cmTC_b1ca0 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the CXX compiler accepts the flag -std=c++14 passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53b14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53b14.dir/build.make CMakeFiles/cmTC_53b14.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53b14.dir/DummyCXXFile.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14   -o CMakeFiles/cmTC_53b14.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.7/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTC_53b14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b14.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14    CMakeFiles/cmTC_53b14.dir/DummyCXXFile.cxx.o  -o cmTC_53b14 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_FINAL succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c5d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c5d6.dir/build.make CMakeFiles/cmTC_0c5d6.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c5d6.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_FINAL   -o CMakeFiles/cmTC_0c5d6.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0c5d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c5d6.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_FINAL    CMakeFiles/cmTC_0c5d6.dir/src.cxx.o  -o cmTC_0c5d6 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+struct Base {
+  virtual void foo() = 0;
+};
+struct Derived : public Base {
+  virtual void foo() final {};
+};
+
+int main()
+{
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_TYPE_TRAITS succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d00c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d00c.dir/build.make CMakeFiles/cmTC_3d00c.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d00c.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_TYPE_TRAITS   -o CMakeFiles/cmTC_3d00c.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx:9:10: warning: unused variable 'foo' [-Wunused-variable]
+     bool foo = std::is_convertible<int, double>::value;
+          ^~~
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx:10:10: warning: unused variable 'bar' [-Wunused-variable]
+     bool bar = std::is_base_of<Base, Derived>::value;
+          ^~~
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx:11:10: warning: unused variable 'foobar' [-Wunused-variable]
+     bool foobar = std::is_integral<double>::value;
+          ^~~~~~
+Linking CXX executable cmTC_3d00c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d00c.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_TYPE_TRAITS    CMakeFiles/cmTC_3d00c.dir/src.cxx.o  -o cmTC_3d00c -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <type_traits>
+
+class Base {};
+class Derived : public Base {};
+
+int main()
+{
+    bool foo = std::is_convertible<int, double>::value;
+    bool bar = std::is_base_of<Base, Derived>::value;
+    bool foobar = std::is_integral<double>::value;
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20549/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20549.dir/build.make CMakeFiles/cmTC_20549.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20549.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_SHARED_PTR   -o CMakeFiles/cmTC_20549.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_20549
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20549.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_SHARED_PTR    CMakeFiles/cmTC_20549.dir/src.cxx.o  -o cmTC_20549 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <memory>
+
+    int main(void)
+    {
+      std::shared_ptr<int> foo(new int(123));
+      return 0;
+    }
+
+Performing C++ SOURCE FILE Test HAVE_UNIQUE_PTR succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00a75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00a75.dir/build.make CMakeFiles/cmTC_00a75.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00a75.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_UNIQUE_PTR   -o CMakeFiles/cmTC_00a75.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_00a75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00a75.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_UNIQUE_PTR    CMakeFiles/cmTC_00a75.dir/src.cxx.o  -o cmTC_00a75 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <memory>
+
+    int main(void)
+    {
+      std::unique_ptr<int> foo(new int(123));
+      return 0;
+    }
+
+Performing C++ SOURCE FILE Test HAVE_NULLPTR succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4266d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4266d.dir/build.make CMakeFiles/cmTC_4266d.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4266d.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_NULLPTR   -o CMakeFiles/cmTC_4266d.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx:4:13: warning: unused variable 'ch' [-Wunused-variable]
+       char* ch = nullptr;
+             ^~
+Linking CXX executable cmTC_4266d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4266d.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_NULLPTR    CMakeFiles/cmTC_4266d.dir/src.cxx.o  -o cmTC_4266d -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    int main(void)
+    {
+      char* ch = nullptr;
+      return 0;
+    }
+
+Performing C++ SOURCE FILE Test HAVE_CONSTEXPR succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15fcf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15fcf.dir/build.make CMakeFiles/cmTC_15fcf.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15fcf.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_CONSTEXPR   -o CMakeFiles/cmTC_15fcf.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx:6:21: warning: unused variable 'foobar' [-Wunused-variable]
+       constexpr int foobar = foo(100);
+                     ^~~~~~
+Linking CXX executable cmTC_15fcf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15fcf.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_CONSTEXPR    CMakeFiles/cmTC_15fcf.dir/src.cxx.o  -o cmTC_15fcf -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    template <class T>
+    inline constexpr int foo(T bar) { return bar*2; }
+    int main(void)
+    {
+      constexpr int foobar = foo(100);
+      return 0;
+    }
+
+Performing C++ SOURCE FILE Test HAVE_ARRAY succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8f41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8f41.dir/build.make CMakeFiles/cmTC_f8f41.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8f41.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_ARRAY   -o CMakeFiles/cmTC_f8f41.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f8f41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f41.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_ARRAY    CMakeFiles/cmTC_f8f41.dir/src.cxx.o  -o cmTC_f8f41 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <array>
+
+    int main(void)
+    {
+      std::array<int,2> a;
+      a.fill(9);
+      return 0;
+    }
+
+Performing C++ SOURCE FILE Test HAVE_INTEGRAL_CONSTANT succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77350/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77350.dir/build.make CMakeFiles/cmTC_77350.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77350.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_INTEGRAL_CONSTANT   -o CMakeFiles/cmTC_77350.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_77350
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77350.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_INTEGRAL_CONSTANT    CMakeFiles/cmTC_77350.dir/src.cxx.o  -o cmTC_77350 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <type_traits>
+    void f( int ){}
+
+    int main(void){
+      f( std::integral_constant< int, 42 >() );
+    }
+
+Determining if the include file tuple exists passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a3f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a3f4.dir/build.make CMakeFiles/cmTC_5a3f4.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a3f4.dir/CheckIncludeFile.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14    -o CMakeFiles/cmTC_5a3f4.dir/CheckIncludeFile.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5a3f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a3f4.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14     CMakeFiles/cmTC_5a3f4.dir/CheckIncludeFile.cxx.o  -o cmTC_5a3f4 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/tuple exists passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8031f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8031f.dir/build.make CMakeFiles/cmTC_8031f.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8031f.dir/CheckIncludeFile.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14    -o CMakeFiles/cmTC_8031f.dir/CheckIncludeFile.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_8031f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8031f.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14     CMakeFiles/cmTC_8031f.dir/CheckIncludeFile.cxx.o  -o cmTC_8031f -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_ATTRIBUTE_ALWAYS_INLINE succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3c8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3c8e.dir/build.make CMakeFiles/cmTC_f3c8e.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3c8e.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_ATTRIBUTE_ALWAYS_INLINE   -o CMakeFiles/cmTC_f3c8e.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx:2:40: warning: always_inline function might not be inlinable [-Wattributes]
+    void __attribute__((always_inline)) foo(void) {}
+                                        ^~~
+Linking CXX executable cmTC_f3c8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3c8e.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_ATTRIBUTE_ALWAYS_INLINE    CMakeFiles/cmTC_f3c8e.dir/src.cxx.o  -o cmTC_f3c8e -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   void __attribute__((always_inline)) foo(void) {}
+   int main(void)
+   {
+     foo();
+     return 0;
+   };
+
+Performing C++ SOURCE FILE Test HAS_ATTRIBUTE_UNUSED succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb252/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb252.dir/build.make CMakeFiles/cmTC_bb252.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb252.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAS_ATTRIBUTE_UNUSED   -o CMakeFiles/cmTC_bb252.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bb252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb252.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAS_ATTRIBUTE_UNUSED    CMakeFiles/cmTC_bb252.dir/src.cxx.o  -o cmTC_bb252 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   int main(void)
+   {
+     int __attribute__((unused)) foo;
+     return 0;
+   };
+
+Performing C++ SOURCE FILE Test HAS_ATTRIBUTE_DEPRECATED succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a3f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a3f3.dir/build.make CMakeFiles/cmTC_0a3f3.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a3f3.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAS_ATTRIBUTE_DEPRECATED   -o CMakeFiles/cmTC_0a3f3.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0a3f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a3f3.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAS_ATTRIBUTE_DEPRECATED    CMakeFiles/cmTC_0a3f3.dir/src.cxx.o  -o cmTC_0a3f3 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#define DEP __attribute__((deprecated))
+   class bar
+   {
+     bar() DEP;
+   };
+
+   class peng { } DEP;
+
+   template <class T>
+   class t_bar
+   {
+     t_bar() DEP;
+   };
+
+   template <class T>
+   class t_peng {
+     t_peng() {};
+   } DEP;
+
+   void foo() DEP;
+
+   void foo() {};
+
+   int main(void)
+   {
+     return 0;
+   };
+
+Performing C++ SOURCE FILE Test HAS_ATTRIBUTE_DEPRECATED_MSG succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd092/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd092.dir/build.make CMakeFiles/cmTC_bd092.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd092.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAS_ATTRIBUTE_DEPRECATED_MSG   -o CMakeFiles/cmTC_bd092.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bd092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd092.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAS_ATTRIBUTE_DEPRECATED_MSG    CMakeFiles/cmTC_bd092.dir/src.cxx.o  -o cmTC_bd092 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#define DEP __attribute__((deprecated("message")))
+   class bar {
+     bar() DEP;
+   };
+
+   class peng { } DEP;
+
+   template <class T>
+   class t_bar
+   {
+     t_bar() DEP;
+   };
+
+   template <class T>
+   class t_peng
+   {
+     t_peng() {};
+   } DEP;
+
+   void foo() DEP;
+
+   void foo() {};
+
+   int main(void)
+   {
+     return 0;
+   };
+
+Performing C++ SOURCE FILE Test HAVE_STATIC_ASSERT succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e02c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e02c0.dir/build.make CMakeFiles/cmTC_e02c0.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e02c0.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_STATIC_ASSERT   -o CMakeFiles/cmTC_e02c0.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e02c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e02c0.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_STATIC_ASSERT    CMakeFiles/cmTC_e02c0.dir/src.cxx.o  -o cmTC_e02c0 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   int main(void)
+   {
+     static_assert(true,"MSG");
+     return 0;
+   }
+
+Performing C++ SOURCE FILE Test HAVE_AUTO succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a74ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a74ef.dir/build.make CMakeFiles/cmTC_a74ef.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a74ef.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_AUTO   -o CMakeFiles/cmTC_a74ef.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx:4:11: warning: unused variable 'foo' [-Wunused-variable]
+      auto foo = 1.23;
+           ^~~
+Linking CXX executable cmTC_a74ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a74ef.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_AUTO    CMakeFiles/cmTC_a74ef.dir/src.cxx.o  -o cmTC_a74ef -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   int main(void)
+   {
+     auto foo = 1.23;
+     return 0;
+   }
+
+Performing C++ SOURCE FILE Test HAVE_VARIADIC_TEMPLATES succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b69ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b69ec.dir/build.make CMakeFiles/cmTC_b69ec.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b69ec.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_VARIADIC_TEMPLATES   -o CMakeFiles/cmTC_b69ec.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b69ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b69ec.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_VARIADIC_TEMPLATES    CMakeFiles/cmTC_b69ec.dir/src.cxx.o  -o cmTC_b69ec -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   #include <cassert>
+
+   template<typename... T>
+   int addints(T... x);
+
+   int add_ints()
+   {
+     return 0;
+   }
+
+   template<typename T1, typename... T>
+   int add_ints(T1 t1, T... t)
+   {
+     return t1 + add_ints(t...);
+   }
+
+   int main(void)
+   {
+     assert( 5 == add_ints(9,3,-5,-2) );
+     return 0;
+   }
+
+Performing C++ SOURCE FILE Test HAVE_VARIADIC_CONSTRUCTOR_SFINAE succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc0a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc0a0.dir/build.make CMakeFiles/cmTC_bc0a0.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bc0a0.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_VARIADIC_CONSTRUCTOR_SFINAE   -o CMakeFiles/cmTC_bc0a0.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bc0a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc0a0.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_VARIADIC_CONSTRUCTOR_SFINAE    CMakeFiles/cmTC_bc0a0.dir/src.cxx.o  -o cmTC_bc0a0 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <functional>
+
+  template<typename... U>
+  struct A
+  {
+    template<typename... T,
+             typename = typename std::enable_if<(sizeof...(T) < 2)>::type
+            >
+    A(T... t)
+    : i(1)
+    {}
+
+    template<typename... T,
+             typename = typename std::enable_if<(sizeof...(T) >= 2)>::type,
+             typename = void
+            >
+    A(T... t)
+    : i(-1)
+    {}
+
+    A()
+    : i(1)
+    {}
+
+    int i;
+  };
+
+  int main(void)
+  {
+    return (A<int>().i + A<int>(2).i + A<int>("foo",3.4).i + A<int>(8,'a',A<int>()).i == 0 ? 0 : 1);
+  }
+
+Performing C++ SOURCE FILE Test HAVE_RVALUE_REFERENCES succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7519f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7519f.dir/build.make CMakeFiles/cmTC_7519f.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7519f.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_RVALUE_REFERENCES   -o CMakeFiles/cmTC_7519f.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7519f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7519f.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_RVALUE_REFERENCES    CMakeFiles/cmTC_7519f.dir/src.cxx.o  -o cmTC_7519f -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <cassert>
+  #include <utility>
+  int foo(int&& x) { return 1; }
+  int foo(const int& x) { return -1; }
+
+  template<typename T>
+  int forward(T&& x)
+  {
+    return foo(std::forward<T>(x));
+  }
+
+  int main(void)
+  {
+    int i = 0;
+    assert( forward(i) + forward(int(2)) == 0);
+    return 0;
+  }
+
+Determining if the include file tr1/type_traits exists passed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9346/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9346.dir/build.make CMakeFiles/cmTC_d9346.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9346.dir/CheckIncludeFile.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14    -o CMakeFiles/cmTC_d9346.dir/CheckIncludeFile.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d9346
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9346.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14     CMakeFiles/cmTC_d9346.dir/CheckIncludeFile.cxx.o  -o cmTC_d9346 -rdynamic 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_DYNAMIC_BOOST_TEST succeeded with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8bc5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8bc5.dir/build.make CMakeFiles/cmTC_c8bc5.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8bc5.dir/src.cxx.o
+/usr/lib/ccache/c++     -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_DYNAMIC_BOOST_TEST   -o CMakeFiles/cmTC_c8bc5.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8bc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8bc5.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -pipe -Wall -Wno-unknown-pragmas -pthread -std=c++14 -DHAVE_DYNAMIC_BOOST_TEST    CMakeFiles/cmTC_c8bc5.dir/src.cxx.o  -o cmTC_c8bc5 -rdynamic /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so 
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-common/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#define BOOST_TEST_DYN_LINK
+#define BOOST_TEST_MODULE DYNLINK_TEST
+#include <boost/test/unit_test.hpp>
+
+int f(int x) { return 2 * x; }
+
+BOOST_AUTO_TEST_CASE(DynlinkConfigureTest) {
+  BOOST_CHECK_MESSAGE(f(2) == 4,
+                      "Apparently, multiplication doesn't "
+                      "work: f(2) = " << f(2));
+}

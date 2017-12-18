@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../..//opm/core/utility/Event.hpp
+functional
+-
+list
+-
+Event_impl.hpp
+../../opm/core/utility/Event_impl.hpp
+
+../../opm/core/utility/Event_impl.hpp
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/tests/test_event.cpp
+config.h
+-
+boost/test/unit_test.hpp
+-
+opm/core/utility/Event.hpp
+-
+
+config.h
+

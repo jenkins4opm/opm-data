@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../..//opm/autodiff/multiPhaseUpwind.hpp
+array
+-
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/tests/test_multiphaseupwind.cpp
+config.h
+-
+boost/test/unit_test.hpp
+-
+opm/autodiff/multiPhaseUpwind.hpp
+-
+
+config.h
+

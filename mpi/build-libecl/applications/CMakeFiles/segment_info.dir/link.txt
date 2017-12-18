@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++    -Wall  -std=c++11 -O3 -DNDEBUG   CMakeFiles/segment_info.dir/well/segment_info.c.o  -o ../bin/segment_info -rdynamic ../lib/libecl.a -lm -ldl -pthread -lblas -llapack -lblas -llapack -lz 

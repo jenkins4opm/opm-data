@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../..//opm/autodiff/AutoDiff.hpp
+cmath
+-
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/examples/find_zero.cpp
+config.h
+-
+opm/autodiff/AutoDiff.hpp
+-
+iostream
+-
+cmath
+-
+
+config.h
+

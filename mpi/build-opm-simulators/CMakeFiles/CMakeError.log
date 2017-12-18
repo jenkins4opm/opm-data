@@ -1,0 +1,123 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_269e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_269e4.dir/build.make CMakeFiles/cmTC_269e4.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_269e4.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas    -o CMakeFiles/cmTC_269e4.dir/CheckSymbolExists.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_269e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_269e4.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas     CMakeFiles/cmTC_269e4.dir/CheckSymbolExists.c.o  -o cmTC_269e4 -rdynamic 
+CMakeFiles/cmTC_269e4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_269e4.dir/build.make:97: recipe for target 'cmTC_269e4' failed
+make[1]: *** [cmTC_269e4] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_269e4/fast' failed
+make: *** [cmTC_269e4/fast] Error 2
+
+File /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3920d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3920d.dir/build.make CMakeFiles/cmTC_3920d.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3920d.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3920d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3920d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3920d.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3920d.dir/CheckFunctionExists.c.o  -o cmTC_3920d -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3920d.dir/build.make:97: recipe for target 'cmTC_3920d' failed
+make[1]: *** [cmTC_3920d] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3920d/fast' failed
+make: *** [cmTC_3920d/fast] Error 2
+
+
+Determining if the include file parmetis.h exists failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c42c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c42c.dir/build.make CMakeFiles/cmTC_2c42c.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c42c.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc   -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include  -pipe -Wall -Wno-unknown-pragmas -pthread -std=c99     -o CMakeFiles/cmTC_2c42c.dir/CheckIncludeFile.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: parmetis.h: No such file or directory
+ #include <parmetis.h>
+                      ^
+compilation terminated.
+CMakeFiles/cmTC_2c42c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2c42c.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2c42c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2c42c/fast' failed
+make: *** [cmTC_2c42c/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_DUNE_ALUGRID failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_beb46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_beb46.dir/build.make CMakeFiles/cmTC_beb46.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_beb46.dir/src.cxx.o
+/usr/lib/ccache/c++   -DDUNE_COMMON_FIELDVECTOR_SIZE_IS_METHOD=1 -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1 -DHAS_ATTRIBUTE_DEPRECATED=1 -DHAS_ATTRIBUTE_DEPRECATED_MSG=1 -DHAS_ATTRIBUTE_UNUSED=1 -DHAVE_ARRAY=1 -DHAVE_CXA_DEMANGLE=1 -DHAVE_DUNE_BOOST=1 -DHAVE_MAKE_SHARED=1 -DHAVE_MPI=1 -DHAVE_NULLPTR=1 -DHAVE_SHARED_PTR=1 -DHAVE_STATIC_ASSERT=1 -DHAVE_TR1_TUPLE=1 -DHAVE_TUPLE=1 -DHAVE_TYPE_TRAITS=1 -DMPI_2=1 -DSHARED_PTR_HEADER="<memory>" -DSHARED_PTR_NAMESPACE=std -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/include/trilinos  -std=c++14 -pipe -Wall -Wno-unknown-pragmas -pthread -DHAVE_DUNE_ALUGRID   -o CMakeFiles/cmTC_beb46.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp/src.cxx:1:45: fatal error: dune/alugrid/common/interfaces.hh: No such file or directory
+ #include <dune/alugrid/common/interfaces.hh>
+                                             ^
+compilation terminated.
+CMakeFiles/cmTC_beb46.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_beb46.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_beb46.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_beb46/fast' failed
+make: *** [cmTC_beb46/fast] Error 2
+
+Source file was:
+#include <dune/alugrid/common/interfaces.hh>
+int main (void) {
+   return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_DUNE_FEM failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f544/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f544.dir/build.make CMakeFiles/cmTC_7f544.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f544.dir/src.cxx.o
+/usr/lib/ccache/c++   -DDUNE_COMMON_FIELDVECTOR_SIZE_IS_METHOD=1 -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1 -DHAS_ATTRIBUTE_DEPRECATED=1 -DHAS_ATTRIBUTE_DEPRECATED_MSG=1 -DHAS_ATTRIBUTE_UNUSED=1 -DHAVE_ARRAY=1 -DHAVE_CXA_DEMANGLE=1 -DHAVE_DUNE_BOOST=1 -DHAVE_MAKE_SHARED=1 -DHAVE_MPI=1 -DHAVE_NULLPTR=1 -DHAVE_SHARED_PTR=1 -DHAVE_STATIC_ASSERT=1 -DHAVE_TR1_TUPLE=1 -DHAVE_TUPLE=1 -DHAVE_TYPE_TRAITS=1 -DHAVE_ZLIB=1 -DHAVE_ZOLTAN=1 -DMPI_2=1 -DSHARED_PTR_HEADER="<memory>" -DSHARED_PTR_NAMESPACE=std -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/include/trilinos  -std=c++14 -pipe -Wall -Wno-unknown-pragmas -pthread -DHAVE_DUNE_FEM   -o CMakeFiles/cmTC_7f544.dir/src.cxx.o -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp/src.cxx:1:55: fatal error: dune/fem/space/shapefunctionset/legendre.hh: No such file or directory
+ #include <dune/fem/space/shapefunctionset/legendre.hh>
+                                                       ^
+compilation terminated.
+CMakeFiles/cmTC_7f544.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7f544.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7f544.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-simulators/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7f544/fast' failed
+make: *** [cmTC_7f544/fast] Error 2
+
+Source file was:
+#include <dune/fem/space/shapefunctionset/legendre.hh>
+int main (void) {
+   //Dune::Fem::LegendrePolynomials::weight();
+   return 0;
+}
+

@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++    -Wall  -std=c++11 -O3 -DNDEBUG   CMakeFiles/nex2ecl.dir/nexus/nex2ecl.cpp.o  -o ../bin/nex2ecl -rdynamic ../lib/libecl.a -lm -ldl -pthread -lblas -llapack -lblas -llapack -lz 

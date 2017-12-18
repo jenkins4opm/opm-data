@@ -1,0 +1,13 @@
+prefix=/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/install
+libdir=/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/install/lib/x86_64-linux-gnu
+includedir=/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/install/include
+CXX=/usr/lib/ccache/c++ -std=c++14 
+CC=/usr/lib/ccache/cc -std=c99 
+DEPENDENCIES=
+
+Name: opm-material
+Description: This module contains the thermodynamic framework used by OPM 2018.04
+Version: 2018.04
+URL: http://opm-project.org
+Libs:  -L -l:opmparser -L/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/install/lib/x86_64-linux-gnu -l:libopmcommon.a -lpthread -lboost_regex -lboost_filesystem -lboost_system -lboost_date_time -L -l:dunecommon -llapack -lblas -L/usr/lib/x86_64-linux-gnu/openmpi/lib -lmpi_cxx -L/usr/lib/x86_64-linux-gnu/openmpi/lib -lmpi
+Cflags: -I/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/install/include -I/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/install/include -I/usr/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/local/include -DDUNE_COMMON_FIELDVECTOR_SIZE_IS_METHOD=1

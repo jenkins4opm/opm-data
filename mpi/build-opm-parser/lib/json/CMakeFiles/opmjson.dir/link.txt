@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopmjson.a  CMakeFiles/opmjson.dir/JsonObject.cpp.o ../../external/cjson/CMakeFiles/cjson.dir/cJSON.c.o
+/usr/bin/ranlib libopmjson.a

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-material/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8321a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8321a.dir/build.make CMakeFiles/cmTC_8321a.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-material/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8321a.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas    -o CMakeFiles/cmTC_8321a.dir/CheckSymbolExists.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-material/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8321a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8321a.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas     CMakeFiles/cmTC_8321a.dir/CheckSymbolExists.c.o  -o cmTC_8321a -rdynamic 
+CMakeFiles/cmTC_8321a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8321a.dir/build.make:97: recipe for target 'cmTC_8321a' failed
+make[1]: *** [cmTC_8321a] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-material/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8321a/fast' failed
+make: *** [cmTC_8321a/fast] Error 2
+
+File /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-material/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-material/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_624dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_624dc.dir/build.make CMakeFiles/cmTC_624dc.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-material/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_624dc.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_624dc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_624dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_624dc.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_624dc.dir/CheckFunctionExists.c.o  -o cmTC_624dc -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_624dc.dir/build.make:97: recipe for target 'cmTC_624dc' failed
+make[1]: *** [cmTC_624dc] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-material/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_624dc/fast' failed
+make: *** [cmTC_624dc/fast] Error 2
+
+

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/deps/opm-parser/external/cjson/cJSON.h
+stdlib.h
+-
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/deps/opm-parser/lib/json/JsonObject.cpp
+string
+-
+iostream
+-
+fstream
+-
+stdexcept
+-
+boost/filesystem/path.hpp
+-
+boost/filesystem/operations.hpp
+-
+opm/json/JsonObject.hpp
+-
+cJSON.h
+-
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/deps/opm-parser/lib/json/include/opm/json/JsonObject.hpp
+string
+-
+boost/filesystem/path.hpp
+-
+

@@ -1,0 +1,74 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7dd7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7dd7.dir/build.make CMakeFiles/cmTC_e7dd7.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7dd7.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas    -o CMakeFiles/cmTC_e7dd7.dir/CheckSymbolExists.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e7dd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7dd7.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas     CMakeFiles/cmTC_e7dd7.dir/CheckSymbolExists.c.o  -o cmTC_e7dd7 -rdynamic 
+CMakeFiles/cmTC_e7dd7.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e7dd7.dir/build.make:97: recipe for target 'cmTC_e7dd7' failed
+make[1]: *** [cmTC_e7dd7] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e7dd7/fast' failed
+make: *** [cmTC_e7dd7/fast] Error 2
+
+File /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12dcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12dcc.dir/build.make CMakeFiles/cmTC_12dcc.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12dcc.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc    -pipe -Wall -Wno-unknown-pragmas -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_12dcc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12dcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12dcc.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -pipe -Wall -Wno-unknown-pragmas -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_12dcc.dir/CheckFunctionExists.c.o  -o cmTC_12dcc -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_12dcc.dir/build.make:97: recipe for target 'cmTC_12dcc' failed
+make[1]: *** [cmTC_12dcc] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_12dcc/fast' failed
+make: *** [cmTC_12dcc/fast] Error 2
+
+
+Determining if the include file parmetis.h exists failed with the following output:
+Change Dir: /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_055a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_055a0.dir/build.make CMakeFiles/cmTC_055a0.dir/build
+make[1]: Entering directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_055a0.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc   -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include  -pipe -Wall -Wno-unknown-pragmas -pthread -std=c99     -o CMakeFiles/cmTC_055a0.dir/CheckIncludeFile.c.o   -c /var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: parmetis.h: No such file or directory
+ #include <parmetis.h>
+                      ^
+compilation terminated.
+CMakeFiles/cmTC_055a0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_055a0.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_055a0.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/var/lib/jenkins/workspace/opm-simulators-PR-builder/mpi/build-opm-grid/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_055a0/fast' failed
+make: *** [cmTC_055a0/fast] Error 2
+
+

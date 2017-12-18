@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/deps/opm-output/opm/test_util/summaryComparator.hpp
+iostream
+-
+iomanip
+-
+vector
+-
+algorithm
+-
+string
+-
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/deps/opm-output/opm/test_util/summaryIntegrationTest.hpp
+opm/test_util/summaryComparator.hpp
+-
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/deps/opm-output/opm/test_util/summaryRegressionTest.hpp
+opm/test_util/summaryComparator.hpp
+-
+
+/var/lib/jenkins/workspace/opm-simulators-PR-builder/deps/opm-output/test_util/compareSummary.cpp
+opm/test_util/summaryRegressionTest.hpp
+-
+opm/test_util/summaryIntegrationTest.hpp
+-
+string
+-
+algorithm
+-
+stdexcept
+-
+getopt.h
+-
+

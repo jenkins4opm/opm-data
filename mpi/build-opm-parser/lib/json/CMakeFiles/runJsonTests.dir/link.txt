@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++   -std=c++11  -O3 -DNDEBUG   CMakeFiles/runJsonTests.dir/tests/jsonTests.cpp.o  -o runJsonTests -rdynamic libopmjson.a /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.a -Wl,-Bstatic -lboost_filesystem -Wl,-Bdynamic /usr/lib/x86_64-linux-gnu/libboost_system.a 
