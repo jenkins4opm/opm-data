@@ -13,7 +13,7 @@ For more information visit: http://opm-project.org
 Flow Version  =  2018.04-pre
 System        =  opm-deb (Number of cores: 12, RAM: 32178.65 MB) 
 Architecture  =  Linux x86_64 (Release: 4.9.0-3-amd64, Version: #1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26) )
-Simulation started on 04-01-2018 at 15:03:58 hrs
+Simulation started on 17-01-2018 at 07:19:51 hrs
 
 
 ===============Saturation Functions Diagnostics===============
@@ -22,17 +22,13 @@ System:  Black-oil system.
 Relative permeability input format: Saturation Family I.
 Number of saturation regions: 1
 
-Keyword BGSAT is unhandled
-Keyword WGPP is unhandled
-Keyword WOPP is unhandled
-Keyword WWPP is unhandled
 
 
 ================ Starting main simulation loop ===============
 
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3822.01  PSIA                 :
+                                                  :      PAV  =       3858.25  PSIA                 :
                                                   :      PORV =     453453210   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -46,7 +42,7 @@ Keyword WWPP is unhandled
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3822.01  PSIA                 :
+                                                  :      PAV  =       3858.25  PSIA                 :
                                                   :      PORV =     453453210   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -61,22 +57,24 @@ Report step  0/30 at day 0/300, date = 01-Jan-2015
 
 Time step 0, stepsize 1 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  6, newton its =  3, linearizations =  4 ( 0.411 sec), linear its =  11 ( 0.112 sec)
+Time step summary: well its =  6, newton its =  3, linearizations =  4 ( 0.362 sec), linear its =  11 ( 0.123 sec)
 
 Time step 1, stepsize 3 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.337 sec), linear its =  12 ( 0.115 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.167 sec), linear its =  12 ( 0.064 sec)
 
 Time step 2, stepsize 6 days.
-Time step summary: newton its =  2, linearizations =  3 ( 0.386 sec), linear its =  13 ( 0.130 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.176 sec), linear its =  13 ( 0.074 sec)
 
                               **************************************************************************
   Balance  at        10  Days *                         SPE 9                                          *
   Report    1    11 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3816.46  PSIA                 :
+                                                  :      PAV  =       3840.33  PSIA                 :
                                                   :      PORV =     453447606   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -90,7 +88,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.386 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3816.46  PSIA                 :
+                                                  :      PAV  =       3840.33  PSIA                 :
                                                   :      PORV =     453447606   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -101,22 +99,22 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.386 sec), linear its
 :========================:==========================================:================:==========================================:
 
 
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
 Report step  1/30 at day 10/300, date = 11-Jan-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.406 sec), linear its =  15 ( 0.131 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.219 sec), linear its =  15 ( 0.079 sec)
 
                               **************************************************************************
   Balance  at        20  Days *                         SPE 9                                          *
   Report    2    21 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3811.85  PSIA                 :
+                                                  :      PAV  =       3826.86  PSIA                 :
                                                   :      PORV =     453440816   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -130,7 +128,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.406 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3811.85  PSIA                 :
+                                                  :      PAV  =       3826.86  PSIA                 :
                                                   :      PORV =     453440816   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -140,24 +138,24 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.406 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  2/30 at day 20/300, date = 21-Jan-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.707 sec), linear its =  15 ( 0.207 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.444 sec), linear its =  15 ( 0.135 sec)
 
                               **************************************************************************
   Balance  at        30  Days *                         SPE 9                                          *
   Report    3    31 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3807.87  PSIA                 :
+                                                  :      PAV  =       3816.27  PSIA                 :
                                                   :      PORV =     453434411   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -171,7 +169,7 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.707 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3807.87  PSIA                 :
+                                                  :      PAV  =       3816.27  PSIA                 :
                                                   :      PORV =     453434411   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -181,24 +179,24 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.707 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  3/30 at day 30/300, date = 31-Jan-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.398 sec), linear its =  12 ( 0.122 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.256 sec), linear its =  12 ( 0.098 sec)
 
                               **************************************************************************
   Balance  at        40  Days *                         SPE 9                                          *
   Report    4    10 Feb 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3804.46  PSIA                 :
+                                                  :      PAV  =       3807.95  PSIA                 :
                                                   :      PORV =     453428623   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -212,7 +210,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.398 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3804.46  PSIA                 :
+                                                  :      PAV  =       3807.95  PSIA                 :
                                                   :      PORV =     453428623   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -222,24 +220,24 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.398 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  4/30 at day 40/300, date = 10-Feb-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.360 sec), linear its =  16 ( 0.132 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.184 sec), linear its =  16 ( 0.085 sec)
 
                               **************************************************************************
   Balance  at        50  Days *                         SPE 9                                          *
   Report    5    20 Feb 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3801.25  PSIA                 :
+                                                  :      PAV  =       3800.84  PSIA                 :
                                                   :      PORV =     453423002   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -253,7 +251,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.360 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3801.25  PSIA                 :
+                                                  :      PAV  =       3800.84  PSIA                 :
                                                   :      PORV =     453423002   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -263,24 +261,24 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.360 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  5/30 at day 50/300, date = 20-Feb-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.313 sec), linear its =  13 ( 0.117 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.154 sec), linear its =  13 ( 0.064 sec)
 
                               **************************************************************************
   Balance  at        60  Days *                         SPE 9                                          *
   Report    6    02 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3798.19  PSIA                 :
+                                                  :      PAV  =       3794.65  PSIA                 :
                                                   :      PORV =     453417576   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -294,7 +292,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.313 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3798.19  PSIA                 :
+                                                  :      PAV  =       3794.65  PSIA                 :
                                                   :      PORV =     453417576   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -304,24 +302,24 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.313 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  6/30 at day 60/300, date = 02-Mar-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.358 sec), linear its =  15 ( 0.165 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.159 sec), linear its =  15 ( 0.071 sec)
 
                               **************************************************************************
   Balance  at        70  Days *                         SPE 9                                          *
   Report    7    12 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3795.17  PSIA                 :
+                                                  :      PAV  =       3789.05  PSIA                 :
                                                   :      PORV =     453412186   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -335,7 +333,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.358 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3795.17  PSIA                 :
+                                                  :      PAV  =       3789.05  PSIA                 :
                                                   :      PORV =     453412186   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -345,24 +343,24 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.358 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  7/30 at day 70/300, date = 12-Mar-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.495 sec), linear its =  12 ( 0.159 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.165 sec), linear its =  12 ( 0.068 sec)
 
                               **************************************************************************
   Balance  at        80  Days *                         SPE 9                                          *
   Report    8    22 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3792.21  PSIA                 :
+                                                  :      PAV  =       3783.94  PSIA                 :
                                                   :      PORV =     453406868   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -376,7 +374,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.495 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3792.21  PSIA                 :
+                                                  :      PAV  =       3783.94  PSIA                 :
                                                   :      PORV =     453406868   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -386,24 +384,24 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.495 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  8/30 at day 80/300, date = 22-Mar-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.419 sec), linear its =  14 ( 0.157 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.159 sec), linear its =  14 ( 0.074 sec)
 
                               **************************************************************************
   Balance  at        90  Days *                         SPE 9                                          *
   Report    9    01 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3789.33  PSIA                 :
+                                                  :      PAV  =       3779.32  PSIA                 :
                                                   :      PORV =     453401682   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -417,7 +415,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.419 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3789.33  PSIA                 :
+                                                  :      PAV  =       3779.32  PSIA                 :
                                                   :      PORV =     453401682   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -427,24 +425,24 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.419 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  9/30 at day 90/300, date = 01-Apr-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.208 sec), linear its =  13 ( 0.083 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.156 sec), linear its =  13 ( 0.065 sec)
 
                               **************************************************************************
   Balance  at       100  Days *                         SPE 9                                          *
   Report   10    11 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3786.49  PSIA                 :
+                                                  :      PAV  =       3775.08  PSIA                 :
                                                   :      PORV =     453396601   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -458,7 +456,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.208 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3786.49  PSIA                 :
+                                                  :      PAV  =       3775.08  PSIA                 :
                                                   :      PORV =     453396601   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -468,8 +466,6 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.208 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 10/30 at day 100/300, date = 11-Apr-2015
 
@@ -484,16 +480,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from BHP to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: well its =  5, newton its =  2, linearizations =  3 ( 0.239 sec), linear its =  14 ( 0.090 sec)
+Time step summary: well its =  5, newton its =  2, linearizations =  3 ( 0.157 sec), linear its =  14 ( 0.071 sec)
 
                               **************************************************************************
   Balance  at       110  Days *                         SPE 9                                          *
   Report   11    21 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3785.66  PSIA                 :
+                                                  :      PAV  =       3780.87  PSIA                 :
                                                   :      PORV =     453393552   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -507,7 +505,7 @@ Time step summary: well its =  5, newton its =  2, linearizations =  3 ( 0.239 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3785.66  PSIA                 :
+                                                  :      PAV  =       3780.87  PSIA                 :
                                                   :      PORV =     453393552   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -517,8 +515,6 @@ Time step summary: well its =  5, newton its =  2, linearizations =  3 ( 0.239 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 11/30 at day 110/300, date = 21-Apr-2015
 
@@ -531,16 +527,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: well its =  3, newton its =  2, linearizations =  3 ( 0.219 sec), linear its =  16 ( 0.112 sec)
+Time step summary: well its =  3, newton its =  2, linearizations =  3 ( 0.159 sec), linear its =  16 ( 0.074 sec)
 
                               **************************************************************************
   Balance  at       120  Days *                         SPE 9                                          *
   Report   12    01 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3784.71  PSIA                 :
+                                                  :      PAV  =       3785.68  PSIA                 :
                                                   :      PORV =     453391476   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -554,7 +552,7 @@ Time step summary: well its =  3, newton its =  2, linearizations =  3 ( 0.219 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3784.71  PSIA                 :
+                                                  :      PAV  =       3785.68  PSIA                 :
                                                   :      PORV =     453391476   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -564,8 +562,6 @@ Time step summary: well its =  3, newton its =  2, linearizations =  3 ( 0.219 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 12/30 at day 120/300, date = 01-May-2015
 
@@ -578,16 +574,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.202 sec), linear its =  17 ( 0.093 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.196 sec), linear its =  17 ( 0.089 sec)
 
                               **************************************************************************
   Balance  at       130  Days *                         SPE 9                                          *
   Report   13    11 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =        3783.7  PSIA                 :
+                                                  :      PAV  =        3789.4  PSIA                 :
                                                   :      PORV =     453389583   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -601,7 +599,7 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.202 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =        3783.7  PSIA                 :
+                                                  :      PAV  =        3789.4  PSIA                 :
                                                   :      PORV =     453389583   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -611,8 +609,6 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.202 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 13/30 at day 130/300, date = 11-May-2015
 
@@ -625,16 +621,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.262 sec), linear its =  19 ( 0.137 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.159 sec), linear its =  19 ( 0.087 sec)
 
                               **************************************************************************
   Balance  at       140  Days *                         SPE 9                                          *
   Report   14    21 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =        3782.7  PSIA                 :
+                                                  :      PAV  =       3792.28  PSIA                 :
                                                   :      PORV =     453387797   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -648,7 +646,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.262 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =        3782.7  PSIA                 :
+                                                  :      PAV  =       3792.28  PSIA                 :
                                                   :      PORV =     453387797   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -658,8 +656,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.262 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 14/30 at day 140/300, date = 21-May-2015
 
@@ -672,16 +668,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.240 sec), linear its =  17 ( 0.128 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.154 sec), linear its =  17 ( 0.080 sec)
 
                               **************************************************************************
   Balance  at       150  Days *                         SPE 9                                          *
   Report   15    31 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3781.74  PSIA                 :
+                                                  :      PAV  =       3794.53  PSIA                 :
                                                   :      PORV =     453386118   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -695,7 +693,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.240 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3781.74  PSIA                 :
+                                                  :      PAV  =       3794.53  PSIA                 :
                                                   :      PORV =     453386118   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -705,8 +703,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.240 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 15/30 at day 150/300, date = 31-May-2015
 
@@ -719,16 +715,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.227 sec), linear its =  17 ( 0.116 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.160 sec), linear its =  17 ( 0.076 sec)
 
                               **************************************************************************
   Balance  at       160  Days *                         SPE 9                                          *
   Report   16    10 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3780.86  PSIA                 :
+                                                  :      PAV  =       3796.31  PSIA                 :
                                                   :      PORV =     453384557   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -742,7 +740,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.227 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3780.86  PSIA                 :
+                                                  :      PAV  =       3796.31  PSIA                 :
                                                   :      PORV =     453384557   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -752,8 +750,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.227 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 16/30 at day 160/300, date = 10-Jun-2015
 
@@ -766,16 +762,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.311 sec), linear its =  17 ( 0.136 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.157 sec), linear its =  17 ( 0.082 sec)
 
                               **************************************************************************
   Balance  at       170  Days *                         SPE 9                                          *
   Report   17    20 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3780.06  PSIA                 :
+                                                  :      PAV  =       3797.74  PSIA                 :
                                                   :      PORV =     453383110   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -789,7 +787,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.311 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3780.06  PSIA                 :
+                                                  :      PAV  =       3797.74  PSIA                 :
                                                   :      PORV =     453383110   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -799,8 +797,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.311 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 17/30 at day 170/300, date = 20-Jun-2015
 
@@ -813,16 +809,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.270 sec), linear its =  17 ( 0.127 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.160 sec), linear its =  17 ( 0.081 sec)
 
                               **************************************************************************
   Balance  at       180  Days *                         SPE 9                                          *
   Report   18    30 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3779.34  PSIA                 :
+                                                  :      PAV  =       3798.89  PSIA                 :
                                                   :      PORV =     453381777   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -836,7 +834,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.270 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3779.34  PSIA                 :
+                                                  :      PAV  =       3798.89  PSIA                 :
                                                   :      PORV =     453381777   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -846,8 +844,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.270 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 18/30 at day 180/300, date = 30-Jun-2015
 
@@ -860,16 +856,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.265 sec), linear its =  17 ( 0.119 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.161 sec), linear its =  17 ( 0.082 sec)
 
                               **************************************************************************
   Balance  at       190  Days *                         SPE 9                                          *
   Report   19    10 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3778.69  PSIA                 :
+                                                  :      PAV  =       3799.84  PSIA                 :
                                                   :      PORV =     453380560   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -883,7 +881,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.265 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3778.69  PSIA                 :
+                                                  :      PAV  =       3799.84  PSIA                 :
                                                   :      PORV =     453380560   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -893,8 +891,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.265 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 19/30 at day 190/300, date = 10-Jul-2015
 
@@ -907,16 +903,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.289 sec), linear its =  18 ( 0.147 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.158 sec), linear its =  18 ( 0.082 sec)
 
                               **************************************************************************
   Balance  at       200  Days *                         SPE 9                                          *
   Report   20    20 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3778.12  PSIA                 :
+                                                  :      PAV  =       3800.62  PSIA                 :
                                                   :      PORV =     453379446   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -930,7 +928,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.289 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3778.12  PSIA                 :
+                                                  :      PAV  =       3800.62  PSIA                 :
                                                   :      PORV =     453379446   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -940,8 +938,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.289 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 20/30 at day 200/300, date = 20-Jul-2015
 
@@ -952,16 +948,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.271 sec), linear its =  16 ( 0.121 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.168 sec), linear its =  16 ( 0.083 sec)
 
                               **************************************************************************
   Balance  at       210  Days *                         SPE 9                                          *
   Report   21    30 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3777.84  PSIA                 :
+                                                  :      PAV  =       3799.35  PSIA                 :
                                                   :      PORV =     453380672   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -975,7 +973,7 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.271 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3777.84  PSIA                 :
+                                                  :      PAV  =       3799.35  PSIA                 :
                                                   :      PORV =     453380672   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -985,8 +983,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.271 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 21/30 at day 210/300, date = 30-Jul-2015
 
@@ -997,16 +993,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.390 sec), linear its =  11 ( 0.107 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.168 sec), linear its =  11 ( 0.060 sec)
 
                               **************************************************************************
   Balance  at       220  Days *                         SPE 9                                          *
   Report   22    09 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3778.11  PSIA                 :
+                                                  :      PAV  =       3798.38  PSIA                 :
                                                   :      PORV =     453381140   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1020,7 +1018,7 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.390 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3778.11  PSIA                 :
+                                                  :      PAV  =       3798.38  PSIA                 :
                                                   :      PORV =     453381140   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1030,8 +1028,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.390 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 22/30 at day 220/300, date = 09-Aug-2015
 
@@ -1042,16 +1038,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.370 sec), linear its =  14 ( 0.135 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.178 sec), linear its =  14 ( 0.087 sec)
 
                               **************************************************************************
   Balance  at       230  Days *                         SPE 9                                          *
   Report   23    19 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3778.27  PSIA                 :
+                                                  :      PAV  =       3797.73  PSIA                 :
                                                   :      PORV =     453381885   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1065,7 +1063,7 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.370 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3778.27  PSIA                 :
+                                                  :      PAV  =       3797.73  PSIA                 :
                                                   :      PORV =     453381885   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1075,8 +1073,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.370 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 23/30 at day 230/300, date = 19-Aug-2015
 
@@ -1087,16 +1083,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.476 sec), linear its =  11 ( 0.149 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.185 sec), linear its =  11 ( 0.071 sec)
 
                               **************************************************************************
   Balance  at       240  Days *                         SPE 9                                          *
   Report   24    29 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3778.57  PSIA                 :
+                                                  :      PAV  =        3797.2  PSIA                 :
                                                   :      PORV =     453382344   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1110,7 +1108,7 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.476 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3778.57  PSIA                 :
+                                                  :      PAV  =        3797.2  PSIA                 :
                                                   :      PORV =     453382344   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1120,8 +1118,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.476 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 24/30 at day 240/300, date = 29-Aug-2015
 
@@ -1132,16 +1128,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.527 sec), linear its =  11 ( 0.137 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.179 sec), linear its =  11 ( 0.079 sec)
 
                               **************************************************************************
   Balance  at       250  Days *                         SPE 9                                          *
   Report   25    08 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =        3778.8  PSIA                 :
+                                                  :      PAV  =       3796.85  PSIA                 :
                                                   :      PORV =     453382946   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1155,7 +1153,7 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.527 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =        3778.8  PSIA                 :
+                                                  :      PAV  =       3796.85  PSIA                 :
                                                   :      PORV =     453382946   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1165,8 +1163,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.527 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 25/30 at day 250/300, date = 08-Sep-2015
 
@@ -1177,16 +1173,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.547 sec), linear its =   9 ( 0.152 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.196 sec), linear its =   9 ( 0.060 sec)
 
                               **************************************************************************
   Balance  at       260  Days *                         SPE 9                                          *
   Report   26    18 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3779.08  PSIA                 :
+                                                  :      PAV  =       3796.58  PSIA                 :
                                                   :      PORV =     453383412   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1200,7 +1198,7 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.547 s
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3779.08  PSIA                 :
+                                                  :      PAV  =       3796.58  PSIA                 :
                                                   :      PORV =     453383412   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1210,8 +1208,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.547 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 26/30 at day 260/300, date = 18-Sep-2015
 
@@ -1222,16 +1218,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: newton its =  2, linearizations =  3 ( 0.580 sec), linear its =   9 ( 0.150 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.177 sec), linear its =   9 ( 0.056 sec)
 
                               **************************************************************************
   Balance  at       270  Days *                         SPE 9                                          *
   Report   27    28 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3779.31  PSIA                 :
+                                                  :      PAV  =       3796.39  PSIA                 :
                                                   :      PORV =     453383920   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1245,7 +1243,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.580 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3779.31  PSIA                 :
+                                                  :      PAV  =       3796.39  PSIA                 :
                                                   :      PORV =     453383920   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1255,8 +1253,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.580 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 27/30 at day 270/300, date = 28-Sep-2015
 
@@ -1267,16 +1263,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: newton its =  2, linearizations =  3 ( 0.542 sec), linear its =  12 ( 0.170 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.167 sec), linear its =  12 ( 0.073 sec)
 
                               **************************************************************************
   Balance  at       280  Days *                         SPE 9                                          *
   Report   28    08 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3779.56  PSIA                 :
+                                                  :      PAV  =       3796.22  PSIA                 :
                                                   :      PORV =     453384318   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1290,7 +1288,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.542 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3779.56  PSIA                 :
+                                                  :      PAV  =       3796.22  PSIA                 :
                                                   :      PORV =     453384318   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1300,8 +1298,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.542 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 28/30 at day 280/300, date = 08-Oct-2015
 
@@ -1312,16 +1308,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: newton its =  2, linearizations =  3 ( 0.508 sec), linear its =  14 ( 0.167 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.166 sec), linear its =  14 ( 0.079 sec)
 
                               **************************************************************************
   Balance  at       290  Days *                         SPE 9                                          *
   Report   29    18 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3779.77  PSIA                 :
+                                                  :      PAV  =       3796.11  PSIA                 :
                                                   :      PORV =     453384730   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1335,7 +1333,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.508 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3779.77  PSIA                 :
+                                                  :      PAV  =       3796.11  PSIA                 :
                                                   :      PORV =     453384730   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1345,8 +1343,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.508 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 29/30 at day 290/300, date = 18-Oct-2015
 
@@ -1357,16 +1353,18 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: newton its =  2, linearizations =  3 ( 0.454 sec), linear its =  14 ( 0.168 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.158 sec), linear its =  14 ( 0.067 sec)
 
                               **************************************************************************
   Balance  at       300  Days *                         SPE 9                                          *
   Report   30    28 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       3779.98  PSIA                 :
+                                                  :      PAV  =       3796.02  PSIA                 :
                                                   :      PORV =     453385083   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
@@ -1380,7 +1378,7 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.454 sec), linear its
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       3779.98  PSIA                 :
+                                                  :      PAV  =       3796.02  PSIA                 :
                                                   :      PORV =     453385083   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
@@ -1391,17 +1389,15 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.454 sec), linear its
 :========================:==========================================:================:==========================================:
 
 
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
 
 ================    End of simulation     ===============
 
-Total time (seconds):         18.4166
-Solver time (seconds):        17.2999
- Assembly time (seconds):     11.9877 (Failed: 0; 0%)
- Linear solve time (seconds): 4.29289 (Failed: 0; 0%)
- Update time (seconds):       0.494102 (Failed: 0; 0%)
- Output write time (seconds): 1.04339
+Total time (seconds):         9.23328
+Solver time (seconds):        9.00888
+ Assembly time (seconds):     5.96464 (Failed: 0; 0%)
+ Linear solve time (seconds): 2.51557 (Failed: 0; 0%)
+ Update time (seconds):       0.288168 (Failed: 0; 0%)
+ Output write time (seconds): 0.237954
 Overall Well Iterations:      41 (Failed: 0; 0%)
 Overall Linearizations:       99 (Failed: 0; 0%)
 Overall Newton Iterations:    67 (Failed: 0; 0%)
@@ -1411,7 +1407,7 @@ Overall Linear Iterations:    451 (Failed: 0; 0%)
 
 Error summary:
 Warnings          30
-Info              264
+Info              260
 Errors            0
 Bugs              0
 Debug             0
